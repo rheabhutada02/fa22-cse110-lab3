@@ -105,40 +105,42 @@
             </details>
             <h3>Interest Form:</h3>
             <form>
-                <p>Enter your name: <input type="text"> </p>
-                <p>Enter your major: <input type="text"></p> 
-                <p>Enter your graduation year: <input type="text"></p>
-                <p>Enter the current degree that you are pursuing: <input type="text"></p>
-                <p>Which of the following programming languages are you comfortable using?</p>
                 <fieldset>
+                    <p>Enter your name: <input type="text"> </p>
+                    <p>Enter your major: <input type="text"></p> 
+                    <p>Enter your graduation year: <input type="text"></p>
+                    <p>Enter the current degree that you are pursuing: <input type="text"></p>
+
+                    <p>Which of the following programming languages are you comfortable using?</p>
                     <input type="checkbox">
                     <label>Python</label><br>
                     <input type="checkbox">
                     <label>Java</label><br>
                     <input type="checkbox">
                     <label>C++</label><br>
+                
+                    <p>Tell us in a few sentences why you would be a good fit for this company:</p>
+                    <textarea></textarea><br>
+
+                    <p>Which city do you prefer to work in:</p>
+                    <input list="cities">
+                    <datalist id="cities">
+                        <option value="Los Angeles, CA">
+                        <option value="New York City, NY">
+                        <option value="Chicago, IL">
+                        <option value="Atlanta, GA">
+                        <option value="Seattle, WA">
+                    </datalist><br>
+
+                    <p>Choose an intern position:</p>
+                    <select name="position" id="cars">
+                        <option value="sales">Sales</option>
+                        <option value="PM">Project Management</option>
+                        <option value="SWE">Software Engineering</option>
+                        <option value="cyber">Cyber Security</option>
+                    </select><br>
+                    <button type="button">Submit</button>
                 </fieldset>
-                <p>Tell us in a few sentences why you would be a good fit for this company:</p>
-                <textarea></textarea><br>
-
-                <p>Which city do you prefer to work in:</p>
-                <input list="cities">
-                <datalist id="cities">
-                    <option value="Los Angeles, CA">
-                    <option value="New York City, NY">
-                    <option value="Chicago, IL">
-                    <option value="Atlanta, GA">
-                    <option value="Seattle, WA">
-                </datalist><br>
-
-                <p>Choose an intern position:</p>
-                <select name="position" id="cars">
-                    <option value="sales">Sales</option>
-                    <option value="PM">Project Management</option>
-                    <option value="SWE">Software Engineering</option>
-                    <option value="cyber">Cyber Security</option>
-                </select><br>
-                <button type="button">Submit</button>
             </form>
         </section>
         <hr>
