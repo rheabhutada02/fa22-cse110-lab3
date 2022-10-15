@@ -1,1 +1,13 @@
-/* this is a comment for comment */
+/* this is a comment */
+
+h1 {
+    color:#5d7ce2
+}
+
+h2 {
+    color:navy
+}
+
+h3 {
+    color:hsl(208, 71%, 42%)
+}
