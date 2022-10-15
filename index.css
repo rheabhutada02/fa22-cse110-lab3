@@ -1,13 +1,21 @@
-/* this is a comment */
+/* this is a stylesheet for index.html */
 
+/* adding color to h1*/
 h1 {
     color:#5d7ce2
 }
 
+/* adding color to h2*/
 h2 {
     color:navy
 }
 
+/* adding color to h3*/
 h3 {
     color:hsl(208, 71%, 42%)
+}
+
+/* adding color to the background*/
+body {
+    background-color: rgb(149, 171, 243)
 }
