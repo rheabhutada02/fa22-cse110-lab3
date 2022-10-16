@@ -52,39 +52,19 @@ body {
 /* adding features to lists */
 li {
     font-size: 1.3rem;
-    font-family: monospace;
 }
 
-/* adding features to paragraphs */
-p {
-    font-family: monospace;
-}
-
-/* adding features to summary */
-summary {
-    font-family: monospace;
-}
-
-/* adding features to labels */
-label {
-    font-family: monospace;
-}
-
-/* adding features to labels */
-option {
-    font-family: monospace;
-}
 
 /* adding features to the main header */
 header {
     font-size: 3.5ex;
+    align-items: center;
 }
 
 /* adding features to the navigation */
 nav {
     font-size: 1.5em;
     display: grid;
-    font-family: monospace;
 }
 
 /* adding features to the footer */
@@ -139,4 +119,9 @@ a:hover {
 #goodbye {
     background-color: rgb(26, 125, 212);
     font-family: "websiteTitlesFont";
+}
+
+/* adding universal selector */
+* {
+    font-family: monospace;
 }
