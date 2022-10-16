@@ -1,22 +1,31 @@
 /* this is a stylesheet for index.html */
 
+@font-face {
+    font-family: "websiteTitlesFont";
+    src: url(Silkscreen-Regular.ttf)
+}
+
+
 /* adding features to large headers*/
 h1 {
     color:#2e3b68;
     text-decoration: underline;
     display: inline-block;
     position: relative;
+    font-family: "websiteTitlesFont";
 }
 
 /* adding features to medium sized headers*/
 h2 {
     color:navy;
     display: block;
+    font-family: "websiteTitlesFont";
 }
 
 /* adding features to small headers*/
 h3 {
     color:hsl(208, 71%, 42%);
+    font-family: "websiteTitlesFont";
 }
 
 h4 {
@@ -42,6 +51,27 @@ body {
 /* adding features to lists */
 li {
     font-size: 1.3rem;
+    font-family: monospace;
+}
+
+/* adding features to paragraphs */
+p {
+    font-family: monospace;
+}
+
+/* adding features to summary */
+summary {
+    font-family: monospace;
+}
+
+/* adding features to labels */
+label {
+    font-family: monospace;
+}
+
+/* adding features to labels */
+option {
+    font-family: monospace;
 }
 
 /* adding features to the main header */
@@ -52,7 +82,8 @@ header {
 /* adding features to the navigation */
 nav {
     font-size: 1.5em;
-    display: grid
+    display: grid;
+    font-family: monospace;
 }
 
 /* adding features to the footer */
