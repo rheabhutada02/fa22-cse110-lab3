@@ -130,3 +130,8 @@ hr {
     border: 8px solid rgb(108, 67, 212);
     border-radius: 4px;
 }
+
+nav[class="nav-style"] {
+    text-align: center;
+    font-weight: bolder;
+}
