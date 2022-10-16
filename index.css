@@ -2,13 +2,13 @@
 
 /* adding features to large headers*/
 h1 {
-    color:#5d7ce2;
+    color:#2e3b68;
+    text-decoration: underline;
 }
 
 /* adding features to medium sized headers*/
 h2 {
     color:navy;
-    margin: auto
 }
 
 /* adding features to small headers*/
@@ -25,7 +25,9 @@ body {
     border-radius: 10px;
     padding-left: 2cm;
     padding-right: 2cm;
-    margin: auto
+    width: 1000px;
+    margin: auto;
+    color: rgb(34, 70, 78);
 }
 
 /* adding features to lists */
@@ -48,11 +50,11 @@ nav {
 /* adding features to the footer */
 footer {
     padding: 1cm 1cm 1cm 1cm;
-    margin-left: 2.5in
+    margin-left: 0.5cm;
+    text-align: center
 }
 
 /* adding features to the form */
 form {
     margin: 1cm 1cm 1cm 1cm;
 }
-
