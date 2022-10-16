@@ -31,7 +31,8 @@ h3 {
 h4 {
     position: fixed;
     right: 10px;
-    bottom: 0px
+    bottom: 0px;
+    font-family: "websiteTitlesFont";
 }
 
 /* adding features to the body*/
