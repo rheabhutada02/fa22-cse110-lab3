@@ -46,14 +46,13 @@ li {
 
 /* adding features to the main header */
 header {
-    font-size: 5ex;
+    font-size: 3.5ex;
 }
 
 /* adding features to the navigation */
 nav {
     font-size: 1.5em;
-    width: 7in;
-    
+    display: grid
 }
 
 /* adding features to the footer */
@@ -66,6 +65,7 @@ footer {
 /* adding features to the form */
 form {
     margin: 1cm 1cm 1cm 1cm;
+    display: flex;
 }
 
 /* adding features to the form */
