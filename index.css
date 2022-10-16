@@ -4,11 +4,13 @@
 h1 {
     color:#2e3b68;
     text-decoration: underline;
+    display: inline-block;
 }
 
 /* adding features to medium sized headers*/
 h2 {
     color:navy;
+    display: block;
 }
 
 /* adding features to small headers*/
@@ -51,10 +53,11 @@ nav {
 footer {
     padding: 1cm 1cm 1cm 1cm;
     margin-left: 0.5cm;
-    text-align: center
+    text-align: center;
 }
 
 /* adding features to the form */
 form {
     margin: 1cm 1cm 1cm 1cm;
 }
+
