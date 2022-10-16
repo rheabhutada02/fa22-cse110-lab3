@@ -1,38 +1,58 @@
 /* this is a stylesheet for index.html */
 
-/* adding color to h1*/
+/* adding features to large headers*/
 h1 {
     color:#5d7ce2;
 }
 
-/* adding color to h2*/
+/* adding features to medium sized headers*/
 h2 {
     color:navy;
+    margin: auto
 }
 
-/* adding color to h3*/
+/* adding features to small headers*/
 h3 {
     color:hsl(208, 71%, 42%);
 }
 
-/* adding color to the background*/
+/* adding features to the body*/
 body {
     background-color: rgb(149, 171, 243);
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(108, 67, 212);
+    border-radius: 10px;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    margin: auto
 }
 
-/* adding absolute and relative units*/
+/* adding features to lists */
 li {
     font-size: 1.3rem;
-    margin-top: 3px;
 }
 
+/* adding features to the main header */
 header {
     font-size: 5ex;
-    margin-top: 2cm;
 }
 
+/* adding features to the navigation */
 nav {
     font-size: 1.5em;
-    margin-top: 1in;
+    width: 7in;
+    
+}
+
+/* adding features to the footer */
+footer {
+    padding: 1cm 1cm 1cm 1cm;
+    margin-left: 2.5in
+}
+
+/* adding features to the form */
+form {
+    margin: 1cm 1cm 1cm 1cm;
 }
 
