@@ -2,20 +2,37 @@
 
 /* adding color to h1*/
 h1 {
-    color:#5d7ce2
+    color:#5d7ce2;
 }
 
 /* adding color to h2*/
 h2 {
-    color:navy
+    color:navy;
 }
 
 /* adding color to h3*/
 h3 {
-    color:hsl(208, 71%, 42%)
+    color:hsl(208, 71%, 42%);
 }
 
 /* adding color to the background*/
 body {
-    background-color: rgb(149, 171, 243)
+    background-color: rgb(149, 171, 243);
 }
+
+/* adding absolute and relative units*/
+li {
+    font-size: 1.3rem;
+    margin-top: 3px;
+}
+
+header {
+    font-size: 5ex;
+    margin-top: 2cm;
+}
+
+nav {
+    font-size: 1.5em;
+    margin-top: 1in;
+}
+
