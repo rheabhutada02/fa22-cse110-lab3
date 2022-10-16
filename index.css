@@ -68,7 +68,7 @@ form {
     display: flex;
 }
 
-/* adding features to the form */
+/* adding features to the img */
 img {
     max-width: 100%;
     max-height: 100%;
@@ -84,4 +84,13 @@ button:active {
 
 a:hover {
     background-color: lavenderblush;
+}
+
+@media only screen and (max-width: 6000px) {
+    video {
+        border-width: 8px;
+        border-style: solid;
+        border-color: rgb(34, 13, 87);
+        border-radius: 5px;
+    }
 }
