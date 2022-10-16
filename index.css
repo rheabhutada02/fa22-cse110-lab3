@@ -77,7 +77,7 @@ footer {
 /* adding features to the form */
 form {
     margin: 1cm 1cm 1cm 1cm;
-    display: flex;
+    display:flex
 }
 
 /* adding features to the img */
@@ -126,17 +126,43 @@ a:hover {
     font-family: monospace;
 }
 
+/* adding element selector */
 hr {
     border: 8px solid rgb(108, 67, 212);
     border-radius: 4px;
 }
 
+/* adding attribute selector */
 nav[class="nav-style"] {
     text-align: center;
     font-weight: bolder;
 }
 
+/* adding selector list */
 p, summary, label {
     font-size: large;
 }
 
+/* adding combinarots */
+h3 span {
+    font-family: "websiteTitlesFont";
+    color: rgb(167, 40, 150)
+}
+
+div > li {
+    font-weight: 600;
+}
+
+p ~ span {
+    font-family: "websiteTitlesFont";
+    color:rgb(167, 40, 150);
+    font-size: small;
+}
+
+h3 + form {
+    font-weight: 600;
+}
+
+label.label-color {
+    color:rgb(124, 13, 74);
+}
