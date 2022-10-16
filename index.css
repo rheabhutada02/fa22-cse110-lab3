@@ -135,3 +135,8 @@ nav[class="nav-style"] {
     text-align: center;
     font-weight: bolder;
 }
+
+p, summary, label {
+    font-size: large;
+}
+
